@@ -1,22 +1,75 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+.specials-div {
+  display: flex;
+  width: 55%;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.specials-div > button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #40bcd8;
+  color: #e4572e;
+  font-size: large;
+}
+.operators-div {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+.operators-div > button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #40bcd8;
+  color: #e4572e;
+  font-size: large;
+  margin: 7px;
+}
+
+.numbers-div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.numbers-div > button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #40bcd8;
+  color: #e4572e;
+  font-size: large;
+  margin: 7px;
+}
